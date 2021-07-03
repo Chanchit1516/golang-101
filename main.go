@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"github.com/Chanchit1516/router"
+	"github.com/gofiber/fiber/v2"
+	_ "github.com/lib/pq"
+)
 
 func main() {
-	fmt.Println("Hello golang !!")
+	app := fiber.New()
+
+	router.SetupRoutes(app)
+
+	app.Listen(":3000")
 }
