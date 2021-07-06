@@ -6,6 +6,8 @@ require (
 	github.com/andybalholm/brotli v1.0.3 // indirect
 	github.com/gofiber/basicauth v0.2.2 // indirect
 	github.com/gofiber/fiber/v2 v2.14.0 // indirect
+	github.com/gofiber/jwt/v2 v2.2.4 // indirect
+	github.com/golang-jwt/jwt v3.2.1+incompatible // indirect
 	github.com/joho/godotenv v1.3.0 // indirect
 	github.com/klauspost/compress v1.13.1 // indirect
 	github.com/lib/pq v1.10.2 // indirect
